@@ -13,5 +13,5 @@ func NowDateTimeWithLooping(format string) string {
 		
 	// 	time.Sleep(1 * time.Second)
 	// }
-	fmt.Println("Time Right Now Start : " + time.Now().Format(format))
+	return "Time Right Now Start : " + time.Now().Format(format)
 }
